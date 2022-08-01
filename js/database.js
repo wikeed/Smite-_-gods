@@ -1,0 +1,100 @@
+const data = [
+  {
+    id: 1,
+    img: "https://webcdn.hirezstudios.com/smite/god-skins/neith_sea-shanty.jpg",
+    nameItem: "Neith",
+    description:
+      "Tecelã do Destino",
+    value: "Caçador",
+    addCart: "Atirador",
+    class: "./img/icons/caçador.png",
+    type: "Físico",
+  },
+  {
+    id: 2,
+    img: "./img/gods/anubis.png",
+    nameItem: "Anúbis",
+    description:
+      "Deus dos Mortos",
+    value: "Mago",
+    addCart: "Atirador",
+    class: "./img/icons/mago.png",
+    type: "Mágico",
+  },
+  {
+    id: 3,
+    img: "https://webcdn.hirezstudios.com/smite/god-skins/scylla_prototype.jpg",
+    nameItem: "Cila",
+    description:
+      "Horror das Profundezas",
+    value: "Mago",
+    addCart: "Atirador",
+    class: "./img/icons/mago.png",
+    type: "Mágico",
+  },
+  {
+    id: 4,
+    img: "./img/gods/kukulkan.png",
+    nameItem: "Kukulkan",
+    description:
+      "Serpente dos Nove Ventos",
+    value: "Mago",
+    addCart: "Atirador",
+    class: "./img/icons/mago.png",
+    type: "Mágico",
+  },
+  {
+    id: 5,
+    img: "./img/Gods/chac.png",
+    nameItem: "Chaac",
+    description:
+      "Deus da Chuva",
+    value: "Guerreiro",
+    addCart: "Adicionar ao carrinho",
+    class: "./img/icons/guerreiro.png",
+    type: "Físico",
+  },
+  {
+    id: 6,
+    img: "./img/Gods/cupido.png",
+    nameItem: "Cupido",
+    description:
+      "Deus do Amor",
+    value: "Caçador",
+    addCart: "Atirador",
+    class: "./img/icons/caçador.png",
+    type: "Físico",
+  },
+  {
+    id: 7,
+    img: "./img/Gods/izanami.png",
+    nameItem: "Izanami",
+    description:
+      "Matriarca da Morte",
+    value: "Caçador",
+    addCart: "Atirador",
+    class: "./img/icons/caçador.png",
+    type: "Físico",
+  },
+  {
+    id: 8,
+    img: "./img/Gods/thanatos.png",
+    nameItem: "Thanatos",
+    description:
+      "O Punho da Morte",
+    value: "Assassino",
+    addCart: "Corporal",
+    class: "./img/icons/assassino.png",
+    type: "Físico",
+  },
+  {
+    id: 9,
+    img: "./img/Gods/ymir.png",
+    nameItem: "Ymir",
+    description: "O Pai dos Gigantes de Gelo",
+    value: "Guardião",
+    addCart: "Corporal",
+    class: "./img/icons/guardiao.png",
+    type: "Mágico",
+  },
+];
