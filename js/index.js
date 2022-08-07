@@ -1,4 +1,4 @@
-const nav = document.querySelector("nav")
+const boxButtonsNav = document.querySelector(".boxButtonsNav")
 const tagUl = document.querySelector("ul")
 
 /***********************************   
@@ -35,8 +35,8 @@ function createCardProduct(data) {
   let tagDivTopLi       = document.createElement("div")
   tagDivTopLi.className = "box_card"
 
-  let tagImgLi       = document.createElement("img")
-  tagImgLi.className = "imgMaior"
+  let tagImgLi          = document.createElement("img")
+  tagImgLi.className    = "imgMaior"
 
   let tagDivBottomLi       = document.createElement("div")
   tagDivBottomLi.className = "box_li_content"
@@ -118,7 +118,7 @@ let buttonGuardiao  = document.querySelector("#buttonGuardiao")
 let buttonGuerreiro = document.querySelector("#buttonGuerreiro")
 
 
-nav.addEventListener("click", showSelect)
+boxButtonsNav.addEventListener("click", showSelect)
 
 
 function showSelect(event) {
@@ -153,3 +153,13 @@ function showSelect(event) {
   }
 }
 
+
+const nav = document.querySelector("nav")
+const buttonMobile = document.getElementById("buttonMobile")
+
+function toggleMenu() {
+
+  nav.classList.toggle("active")
+}
+
+buttonMobile.addEventListener("click", toggleMenu)
