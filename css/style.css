@@ -10,13 +10,14 @@ body {
   opacity: 0.9;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.962) 0%, rgba(0, 0, 0, 0.7) 100%), url("../img/background.gif");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.962) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://i.im.ge/2022/08/11/FnjAmG.giphy.gif");
   width: 99.9vw;
   height: 100%;
   overflow-x: hidden;
 }
 
 header {
+  /* font-family: 'Oleo Script Swash Caps', cursive; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,6 +32,7 @@ header {
 }
 
 nav {
+  /* font-family: 'Oleo Script Swash Caps', cursive; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,11 +43,13 @@ nav {
 }
 
 .boxButtonsNav {
+  /* font-family: 'Oleo Script Swash Caps', cursive; */
   width: 650px;
   height: 1.688rem;
 }
 
 .buttonNav {
+  
   background-color: transparent;
   border-style: none;
   font-size: 1.5rem;
@@ -59,14 +63,17 @@ nav {
   background-color: transparent;
   border-style: none;
   display: none;
-  background-image: url(/img/icons/menu.png);
 }
 
-.buttonNav:focus {
+#buttonMobile i {
+  font-size: 64px;
+}
+
+/* .buttonNav:focus {
   font-size: 1.75rem;
   font-weight: bold;
   color: goldenrod;
-}
+} */
 
 .buttonNav:hover {
   color: rgb(190, 109, 2);
@@ -209,9 +216,6 @@ input {
   font-weight: bold;
 }
 
-input:focus {
-  
-}
 
 
 @media (max-width: 1140px) {
@@ -249,7 +253,7 @@ input:focus {
 
 }
 
-@media (max-width: 560px) {
+@media (max-width: 600px) {
 
   header {
     padding: 0;
@@ -257,10 +261,46 @@ input:focus {
 
   .container {
     justify-content: center;
+    align-items: center;
     margin: 0;
   }
 
   input {
     display: none;
+  }
+
+  nav.active .boxButtonsNav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: transparent;
+    gap: 8px;
+    
+  }
+
+  .boxButtonsNav {
+    display: none;
+    z-index: 1000;
+    background-color: transparent;
+    width: 100%;
+    height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .cards_list li {
+    width: 21.125rem;
+    height: 25.563rem;
+  }
+
+  .box_card {
+    width: 18.375rem;
+    height: 25.313rem;
+  }
+
+  .box_card:hover {
+    transform: scale3d(1.1, 1.1, 2);
+    transition: 0.3s ease-in-out;
   }
 }
