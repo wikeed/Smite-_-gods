@@ -10,7 +10,7 @@ body {
   opacity: 0.9;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.962) 0%, rgba(0, 0, 0, 0.7) 100%), url(/img/giphy.gif);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.962) 0%, rgba(0, 0, 0, 0.7) 100%), url(/img/background.gif);
   width: 99.9vw;
   height: 100%;
   overflow-x: hidden;
