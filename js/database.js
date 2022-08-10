@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    img: "./img/gods/neith.png",
+    img: "./img/Gods/neith.png",
     nameItem: "Neith",
     description:"Tecelã do Destino",
     value: "Caçador",
@@ -11,7 +11,7 @@ const data = [
   },
   {
     id: 2,
-    img: "./img/gods/anubis.png",
+    img: "./img/Gods/anubis.png",
     nameItem: "Anúbis",
     description: "Deus dos Mortos",
     value: "Mago",
@@ -21,7 +21,7 @@ const data = [
   },
   {
     id: 3,
-    img: "./img/gods/cila.png",
+    img: "./img/Gods/cila.png",
     nameItem: "Cila",
     description: "Horror das Profundezas",
     value: "Mago",
@@ -31,7 +31,7 @@ const data = [
   },
   {
     id: 4,
-    img: "./img/gods/kukulkan.png",
+    img: "./img/Gods/kukulkan.png",
     nameItem: "Kukulkan",
     description: "Serpente dos Nove Ventos",
     value: "Mago",
@@ -126,7 +126,7 @@ const data = [
   },
   {
     id: 13,
-    img: "./img/gods/janus.png",
+    img: "./img/Gods/janus.png",
     nameItem: "Janus",
     description:
       "O Deus dos Portais e Passagens",
@@ -137,7 +137,7 @@ const data = [
   },
   {
     id: 14,
-    img: "./img/gods/poseidon.png",
+    img: "./img/Gods/poseidon.png",
     nameItem: "Poseidon",
     description:
       "Deus dos oceanos",
@@ -148,7 +148,7 @@ const data = [
   },
   {
     id: 15,
-    img: "./img/gods/barao samedi.png",
+    img: "./img/Gods/barao samedi.png",
     nameItem: "Barão Samedi",
     description:
       "Deus da vida e da morte",
@@ -170,7 +170,7 @@ const data = [
   },
   {
     id: 17,
-    img: "./img/gods/ah puch.png",
+    img: "./img/Gods/ah puch.png",
     nameItem: "Ah Puch",
     description:
       "Deus da Decadência",
