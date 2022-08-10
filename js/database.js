@@ -115,7 +115,7 @@ const data = [
   },
   {
     id: 12,
-    img: "./img/Gods/Loki.png",
+    img: "./img/Gods/loki.png",
     nameItem: "Loki",
     description:
       "O deus trapaceiro",
