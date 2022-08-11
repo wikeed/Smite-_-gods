@@ -59,18 +59,22 @@ function createCardProduct(data) {
   tagSpanClass.innerText  = data.value
   tagSpanRanged.innerText = data.addCart
   tagSpanType.innerText   = data.type
-  tagImgClass.src         = data.class 
+  tagImgClass.src         = data.classIcon
+  
 
+  tagImgLi.setAttribute("alt", `imagem de ${data.nameItem}`)
+  tagImgClass.setAttribute("alt", `icone da classe ${data.value}`)
+  
   tagLi.appendChild(tagDivTopLi)
-
+  
   tagDivTopLi.appendChild(tagImgLi)
   tagDivTopLi.appendChild(tagDivBottomLi)
 
   tagDivBottomLi.append(tagImgClass, tagH4Li, tagPLi)
   divDescription.append(tagSpanClass, tagSpanRanged, tagSpanType)
-
+  
   tagDivBottomLi.appendChild(divDescription)
-
+  
   return tagLi
 }
 
@@ -150,6 +154,7 @@ function showSelect(event) {
       }
     }
     renderCards(cardShow, tagUl)
+    toggleMenu()
   }
 }
 
@@ -163,13 +168,3 @@ function toggleMenu() {
 }
 
 buttonMobile.addEventListener("click", toggleMenu)
-
-
-
-
-
-let dia = 8
-let mes = 8
-let ano = 2022
-
-let ouput = ``

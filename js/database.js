@@ -6,7 +6,7 @@ const data = [
     description:"Tecelã do Destino",
     value: "Caçador",
     addCart: "Atirador",
-    class: "./assets/icons/caçador.png",
+    classIcon: "./assets/icons/caçador.png",
     type: "Físico",
   },
   {
@@ -16,7 +16,7 @@ const data = [
     description: "Deus dos Mortos",
     value: "Mago",
     addCart: "Atirador",
-    class: "./assets/icons/mago.png",
+    classIcon: "./assets/icons/mago.png",
     type: "Mágico",
   },
   {
@@ -26,7 +26,7 @@ const data = [
     description: "Horror das Profundezas",
     value: "Mago",
     addCart: "Atirador",
-    class: "./assets/icons/mago.png",
+    classIcon: "./assets/icons/mago.png",
     type: "Mágico",
   },
   {
@@ -36,7 +36,7 @@ const data = [
     description: "Serpente dos Nove Ventos",
     value: "Mago",
     addCart: "Atirador",
-    class: "./assets/icons/mago.png",
+    classIcon: "./assets/icons/mago.png",
     type: "Mágico",
   }, 
   {
@@ -47,7 +47,7 @@ const data = [
       "Deus da Chuva",
     value: "Guerreiro",
     addCart: "Adicionar ao carrinho",
-    class: "./assets/icons/guerreiro.png",
+    classIcon: "./assets/icons/guerreiro.png",
     type: "Físico",
   },
   {
@@ -58,7 +58,7 @@ const data = [
       "Deus do Amor",
     value: "Caçador",
     addCart: "Atirador",
-    class: "./assets/icons/caçador.png",
+    classIcon: "./assets/icons/caçador.png",
     type: "Físico",
   },
   {
@@ -69,7 +69,7 @@ const data = [
       "Matriarca da Morte",
     value: "Caçador",
     addCart: "Atirador",
-    class: "./assets/icons/caçador.png",
+    classIcon: "./assets/icons/caçador.png",
     type: "Físico",
   },
   {
@@ -80,7 +80,7 @@ const data = [
       "O Punho da Morte",
     value: "Assassino",
     addCart: "Corporal",
-    class: "./assets/icons/assassino.png",
+    classIcon: "./assets/icons/assassino.png",
     type: "Físico",
   },
   {
@@ -90,7 +90,7 @@ const data = [
     description: "O Pai dos Gigantes de Gelo",
     value: "Guardião",
     addCart: "Corporal",
-    class: "./assets/icons/guardiao.png",
+    classIcon: "./assets/icons/guardiao.png",
     type: "Mágico",
   },
   {
@@ -100,7 +100,7 @@ const data = [
     description: "Deus do vinho",
     value: "Guardião",
     addCart: "Corporal",
-    class: "./assets/icons/guardiao.png",
+    classIcon: "./assets/icons/guardiao.png",
     type: "Mágico",
   },
   {
@@ -110,7 +110,7 @@ const data = [
     description:"O rei macaco",
     value: "Guerreiro",
     addCart: "Adicionar ao carrinho",
-    class: "./assets/icons/guerreiro.png",
+    classIcon: "./assets/icons/guerreiro.png",
     type: "Físico",
   },
   {
@@ -121,7 +121,7 @@ const data = [
       "O deus trapaceiro",
     value: "Assassino",
     addCart: "Corporal",
-    class: "./assets/icons/assassino.png",
+    classIcon: "./assets/icons/assassino.png",
     type: "Físico",
   },
   {
@@ -132,7 +132,7 @@ const data = [
       "O Deus dos Portais e Passagens",
     value: "Mago",
     addCart: "Atirador",
-    class: "./assets/icons/mago.png",
+    classIcon: "./assets/icons/mago.png",
     type: "Mágico",
   },
   {
@@ -143,7 +143,7 @@ const data = [
       "Deus dos oceanos",
     value: "Mago",
     addCart: "Atirador",
-    class: "./assets/icons/mago.png",
+    classIcon: "./assets/icons/mago.png",
     type: "Mágico",
   },
   {
@@ -154,7 +154,7 @@ const data = [
       "Deus da vida e da morte",
     value: "Mago",
     addCart: "Atirador",
-    class: "./assets/icons/mago.png",
+    classIcon: "./assets/icons/mago.png",
     type: "Mágico",
   },
   {
@@ -165,7 +165,7 @@ const data = [
       "Defensor da Terra",
     value: "Caçador",
     addCart: "Atirador",
-    class: "./assets/icons/caçador.png",
+    classIcon: "./assets/icons/caçador.png",
     type: "Físico",
   },
   {
@@ -176,7 +176,7 @@ const data = [
       "Deus da Decadência",
     value: "Mago",
     addCart: "Atirador",
-    class: "./assets/icons/mago.png",
+    classIcon: "./assets/icons/mago.png",
     type: "Mágico",
   },
 ];

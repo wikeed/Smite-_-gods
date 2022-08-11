@@ -17,12 +17,11 @@ body {
 }
 
 header {
-  /* font-family: 'Oleo Script Swash Caps', cursive; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 5.5rem;
-  padding-inline: 0.938rem;
+  padding-inline: 15px;
   background-color: #2E245E;
   border-bottom: 2px solid goldenrod;
 }
@@ -32,34 +31,41 @@ header {
 }
 
 nav {
-  /* font-family: 'Oleo Script Swash Caps', cursive; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 650px;
   height: 1.688rem;
-  font-size: 0.938rem;
+  font-size: 15px;
   margin-right: 10px;
 }
 
+input {
+  height: 2rem;
+  width: 13.313rem;
+  border: 3px solid rgba(5, 5, 5, 0.653);
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .boxButtonsNav {
-  /* font-family: 'Oleo Script Swash Caps', cursive; */
-  width: 650px;
+  width: 40.625rem;
   height: 1.688rem;
 }
 
 .buttonNav {
-  
   background-color: transparent;
   border-style: none;
-  font-size: 1.5rem;
+  font-size: 24px;
   color: gold;
   cursor: pointer;
 }
 
 #buttonMobile {
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
   background-color: transparent;
   border-style: none;
   display: none;
@@ -69,34 +75,27 @@ nav {
   font-size: 64px;
 }
 
-/* .buttonNav:focus {
-  font-size: 1.75rem;
-  font-weight: bold;
-  color: goldenrod;
-} */
-
 .buttonNav:hover {
   color: rgb(190, 109, 2);
 }
 
 h1 {
-  font-size: 2.375rem;
+  font-size: 38px;
   font-weight: bold;
-  margin-left: 3.438rem;
+  margin-left: 55px;
   color: gold;
 }
 
 main {
-  margin: 9.375rem 0 5rem;
+  margin: 150px 0 80px;
 }
 
 .container {
   display: flex;
   justify-content: center;
   max-width: 131.25rem;
-  margin: 2.188rem 0px 0px 3.75rem;
+  margin: 35px 0 0 60px;
 }
-
 
 .cards_list {
   display: flex;
@@ -127,13 +126,12 @@ main {
   transition: .5s;
 }
 
-
 .box_card:hover .box_li_content {
   transform: translateY(-180px);
   transition: 0.5s ease-in-out;
   background-color: #050d1a;
-  
 }
+
 .box_card:not(:hover) .box_li_content {
   transition: .5s;
 } 
@@ -148,74 +146,44 @@ main {
   transform: translateY(-55px);
 }
 
-.divDescription {
-  height: 5rem;
-}
-
 .span_section {
   height: 2.188rem;
-  border-radius: 3.125rem;
+  border-radius: 50px;
 }
 
-li p {
-  font-size: 1.438rem;
-  margin-top: 0.625;
-  line-height: 1.25rem;
-  color: aliceblue;
-}
-
-.cards_list li span {
-  width: 8.625rem;
-  height: 0.938rem;
-  border-style: none;
-  font-weight: bold;
-  background-color: transparent;
-  padding: 0;
-  margin: 0.625rem;
-  cursor: pointer;
-  color: #ffffff;
-  text-align: start;
-  box-sizing: border-box;
-}
-
-
-.box_li_content :nth-child(4) {
-  margin-top: 0.625rem;
-  font-size: 0.938rem;
+.divDescription {
+  height: 5rem;
+  margin-top: 10px;
+  font-size: 15px;
   color: #2E245E;
   font-weight: 600;
 }
 
-.cards_list h4,
-.cards_list li p,
-.cards_list li span {
-  margin: 0 0 0.625rem 0.625rem;
-}
-
 .cards_list h4 {
-  font-size: 1.75rem;
+  font-size: 28px;
   font-weight: bolder;
   color: aliceblue;
+  margin-bottom: 10px;
 }
 
-.cards_list li {
-  display: flex;
-  align-items: center;
-  width: 24.375rem;
-  height: 28.813rem;
-}
-
-input {
-  height: 2rem;
-  width: 13.313rem;
-  border: 3px solid rgba(5, 5, 5, 0.653);
-  border-radius: 8px;
-  background-color: #f5f5f5;
-  padding: 0.313;
-  font-size: 1.25rem;
+.cards_list li p {
+  font-size: 23px;
+  margin-top: 10px;
+  line-height: 20px;
+  color: rgb(151, 71, 237);
+  margin-bottom: 30px;
   font-weight: bold;
 }
 
+.cards_list li span {
+  border-style: none;
+  font-weight: bold;
+  padding: 0;
+  margin: 10px;
+  color: #ffffff;
+  text-align: start;
+  box-sizing: border-box;
+}
 
 
 @media (max-width: 1140px) {
@@ -225,32 +193,35 @@ input {
   }
 
   nav {
-    width: 70px;
-    height: 60px;
+    width: 4.375rem;
+    height: 3.75rem;
     justify-content: center;
   }
 
   nav.active .boxButtonsNav {
     display: flex;
+    justify-content: center;
     position: absolute;
     top: 110px;
     left: 0px;
+    gap: 8px;
     
   }
 
   .boxButtonsNav {
     display: none;
     z-index: 1000;
-    background-color: #717171;
     width: 100%;
-    height: 40px;
+    height: 2.5rem;
   }
 
+  .boxButtonsNav button {
+    border: 1px solid rgb(190, 109, 2);
+  }
 
   #buttonMobile {
     display: flex;
   }
-
 }
 
 @media (max-width: 600px) {
@@ -271,23 +242,22 @@ input {
 
   nav.active .boxButtonsNav {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: transparent;
-    gap: 8px;
+    gap: 0.5rem;
     
   }
 
   .boxButtonsNav {
     display: none;
+    justify-content: center;
     z-index: 1000;
     background-color: transparent;
     width: 100%;
-    height: 40px;
+    height: 2.5rem;
   }
-}
-
-@media (max-width: 600px) {
 
   .cards_list li {
     width: 21.125rem;
