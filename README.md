@@ -35,8 +35,24 @@ Este projeto foi desenvolvido com HTML, CSS e Javascript.
 
 Estas são algumas demonstrações do projeto Smite Gods:
 
-<h2 align="center"></h2>
-<img src="">
+<h2 align="center">Tela cheia</h2>
+<img src="./assets/general/fullScreenAll.png">
+<br></br>
+
+<h2 align="center">Mouse no Anúbis</h2>
+<img src="./assets/general/anubisFocus.png">
+<br></br>
+
+<h2 align="center">pesquisa "cila"</h2>
+<img src="./assets/general/onlyCila.png">
+<br></br>
+
+<h2 align="center">Responsivo</h2>
+<img src="./assets/general/responsive.png">
+<br></br>
+
+<h2 align="center">Responsivo selecionado Guardião</h2>
+<img src="./assets/general/guardiao-select.png">
 
 
 <br></br>

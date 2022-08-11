@@ -185,6 +185,25 @@ main {
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  width: 13px;
+  background: #05111e;
+}
+
+body::-webkit-scrollbar-button {
+  background-color: transparent;
+  height: 0px;
+}
+
+body::-webkit-scrollbar-track-piece {
+  background: #05111e;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #9f9160;
+  border-radius: 5px;
+}
+
 
 @media (max-width: 1140px) {
 

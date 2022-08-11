@@ -114,43 +114,36 @@ function handleSearch() {
  ****************************************************************/
 
 
-let buttonAll       = document.querySelector("#buttonAll")
-let buttonMago      = document.querySelector("#buttonMago")
-let buttonCaçador   = document.querySelector("#buttonCaçador")
-let buttonAssassino = document.querySelector("#buttonAssassino")
-let buttonGuardiao  = document.querySelector("#buttonGuardiao")
-let buttonGuerreiro = document.querySelector("#buttonGuerreiro")
+let buttonNav = document.querySelectorAll(".buttonNav")
+let divButtons = document.querySelector(".boxButtonsNav")
+let children = divButtons.children
 
+for (let i = 0; i < children.length; i++) {
 
-boxButtonsNav.addEventListener("click", showSelect)
-
+ let buttonSelect = children[i]
+ buttonAll.style.color = "#00ccff"
+ buttonSelect.addEventListener("click", showSelect)
+}
 
 function showSelect(event) {
 
-  let buttonAll       = event.target
-  let buttonMago      = event.target
-  let buttonCaçador   = event.target
-  let buttonAssassino = event.target
-  let buttonGuardiao  = event.target
-  let buttonGuerreiro = event.target
+  buttonNav.forEach(e=>{
+    e.style.color = "gold";
+  })
+  let button = event.target
 
   let cardShow = []
-  if (buttonAll.tagName == "BUTTON") {
+
+  if (button.tagName == "BUTTON") {
 
     for (let i = 0; i < data.length; i++) {
 
-      if (buttonAll.value == "Todos") {
+      if (button.value == "Todos") {
+        button.style.color = "#00ccff"
         cardShow.push(data[i])
-      } else if (buttonMago.value == data[i].value) {
+      } else if (button.value == data[i].value) {
         cardShow.push(data[i])
-      } else if (buttonCaçador.value == data[i].value) {
-        cardShow.push(data[i])
-      } else if (buttonAssassino.value == data[i].value) {
-        cardShow.push(data[i])
-      } else if (buttonGuardiao.value == data[i].value) {
-        cardShow.push(data[i])
-      } else if (buttonGuerreiro.value == data[i].value) {
-        cardShow.push(data[i])
+        button.style.color = "#00ccff"
       }
     }
     renderCards(cardShow, tagUl)
